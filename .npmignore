@@ -1,8 +1,0 @@
-rollup.config.js
-test
-types
-tsconfig.json
-*.sh
-.vscode
-dist/script.js
-dist/playground.cjs

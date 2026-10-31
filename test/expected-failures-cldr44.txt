@@ -1,5 +1,0 @@
-# A regression in V8 (https://issues.chromium.org/issues/40893567) caused
-# these tests to fail. We don't know when a fix is expected, but when it's fixed
-# then these tests should start passing again.
-staging/Intl402/Temporal/old/date-time-format.js
-intl402/DateTimeFormat/prototype/format/timedatestyle-en.js

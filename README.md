@@ -1,5 +1,11 @@
 # Temporal Polyfill
 
+> This repository is now a Go library: `github.com/js-temporal/temporal-polyfill-go`, package `temporal`. It keeps the
+> behaviour of `@js-temporal/polyfill` at commit `c55b211` as it ran on Node.js 24.22.1 (ICU 78.3, CLDR 48.0, time zone data
+> 2026e), including what the TypeScript library took from `Intl`. The tables in `internal/intl/data` were extracted from
+> that runtime by the scripts in `internal/intl/gen`; their licence notice is `internal/intl/data/UNICODE-LICENSE.txt`.
+> Build and test with `go build ./... && go test ./...`. The rest of this file describes the original package.
+
 ## Polyfill for [TC39 Proposal: Temporal](https://github.com/tc39/proposal-temporal)
 
 This polyfill was kicked off by some of the champions of the [Temporal proposal](https://github.com/tc39/proposal-temporal).
